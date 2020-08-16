@@ -5,12 +5,14 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's hello-world starter
+  Madu Abu Bakar Dot Com
 </h1>
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Memulai Proyek Blog Madu Abu Bakar Dot Com. Ini adalah sesuatu yang menarik dan mengesankan. Karena saya membangunnya benar-benar dari dasar membangun kerangka sebuah website blog yang masih baru bagi saya. Membangun blog ini dengan framework GatsbyJs berbasis library React sungguh menarik.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+Saya memulainya dengan Gatsby's hello-world-starter. Jika saya bisa maka anda pun mestinya bisa.
+
+_Jika anda mau memulai belajar membangun web dan apps dengan gatsbyjs silahkan kunjungi websitenya di [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
 ## 🚀 Quick start
 
