@@ -3,7 +3,7 @@ title: "Begini Cara Menentukan Keaslian Madu Sialang"
 date: "2020-08-16"
 ---
 
-![Madu Sialang 200gram](./madu-sialang.jpg)
+![Madu Sialang 200gram](images/madu-sialang.jpg)
 
 ## Begini Cara Menentukan Keaslian Madu Sialang ##
 

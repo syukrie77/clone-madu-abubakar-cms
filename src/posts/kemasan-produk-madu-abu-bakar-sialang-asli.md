@@ -10,8 +10,8 @@ Saat ini Produk Madu Abu Bakar Sialang yang Asli hanya ada 2 kemasan yakni kemas
 Madu Abu Bakar di kemas dalam 2 kemasan yakni ukuran 200gram dan 500gram. Untuk kemasan 200gram kami menjualannya dengan harga Rp. 45 ribu sedangkan untuk kemasan 500gram kami menjualnya dengan harga Rp. 100 ribu.
 Untuk ukuran 200gram kemasannya seperti di bawah ini:
 
-![Madu Abu Bakar Sialang 200gram](./madu-sialang.jpg)
+![Madu Abu Bakar Sialang 200gram](images/madu-sialang.jpg)
 
 Sedangkan untuk ukuran 500gram kemasannya seperti di bawah ini:
 
-![Madu Abu Bakar Sialang 500gram](./madu-sialang2.jpg)
+![Madu Abu Bakar Sialang 500gram](images/madu-sialang2.jpg)

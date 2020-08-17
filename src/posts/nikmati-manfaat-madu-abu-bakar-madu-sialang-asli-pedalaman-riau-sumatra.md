@@ -3,7 +3,7 @@ title: "Nikmati Manfaat Madu Abu Bakar Madu Sialang Asli Pedalaman Riau Sumatera
 date: "2020-10-16"
 ---
 
-![Madu Sialang Kemasan 500gram](./madu-sialang2.jpg)
+![Madu Sialang Kemasan 500gram](images/madu-sialang2.jpg)
 Provinsi Riau menyimpan satu kekayaan alam yang bermanfaat untuk kesehatan. Yakni Madu Sialang. Madu ini begitu terkenal hingga ke negeri jiran.
 
 Bukan hanya karena khasiatnya. Tapi juga karena cerita dan cara pengambilan madunya yang terbilang unik.
