@@ -6,7 +6,11 @@ const AboutPage = () => {
   return (
     <Layout>
       <h1>About.</h1>
-      <p>Tentang Madu Abu Bakar.</p>
+      <p>Madu Abu Bakar adalah brand yang menjual produk-produk madu Asli dan berkualitas. Madu yang kami jual sudah diuji terlebih dahulu ke Asliannya sehingga konsumen kami merasa puas dengan madu yang debeli.</p>
+      <p>Madu Abu Bakar hanya menjual madu yang betul-betul Asli dan berkualitas tinggi dengan harga yang kompetitif tentunya.</p>
+      <p>Madu Abu Bakar saat ini menjual Madu Sialang Asli dari Hutan Riau Sumatra yang dijamin Kualitas dan ke Asliannya.</p> 
+      <p>Blog MaduAbuBakar.Com ini sebagai media informasi dan pengetahuan mengenai Madu Sialang yang kami pasarkan, sekaligus tempat kami mempromosikan Produk yang kami jual. Anda dapat memesan langsung di MaduAbuBakar.Com ini produk madu Sialang yang diinginkan dengan cara menghubungi admin kami di WA.</p>  
+      <p><a href="https://wa.me/+6285312261634" target="_blank">maduabubakar</a> Wa Chat.</p>
     </Layout>
   )
 }

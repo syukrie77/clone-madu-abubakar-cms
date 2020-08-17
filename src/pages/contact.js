@@ -6,7 +6,7 @@ const ContactPage = () => {
   return (
     <Layout>
       <h1>Contact</h1>
-      <p>Hubungi Admin Madu Abu Bakar di <a href="https://twitter.com/aretacollege" target="_blank">@aretacollege</a> Twitter</p>
+      <p>Hubungi Admin Madu Abu Bakar di <a href="https://wa.me/+6285312261634" target="_blank">maduabubakar</a> Wa Chat.</p>
     </Layout>
   )
 }
