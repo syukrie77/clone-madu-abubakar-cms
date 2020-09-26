@@ -1,10 +1,27 @@
 import React from 'react'
+import { Link, useStaticQuery, graphql } from 'gatsby'
+import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 
 const AboutPage = () => {
+    const data = useStaticQuery(graphql`
+      query {
+        madu: file(relativePath: {eq: "madu-abubakar2.jpg"}) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
+      }
+    `)
+
   return (
     <Layout>
+      <p>
+        <Img fluid={data.madu.childImageSharp.fluid} />
+      </p>
       <h1>About.</h1>
       <p>Madu Abu Bakar adalah brand yang menjual produk-produk madu Asli dan berkualitas. Madu yang kami jual sudah diuji terlebih dahulu ke Asliannya sehingga konsumen kami merasa puas dengan madu yang debeli.</p>
       <p>Madu Abu Bakar hanya menjual madu yang betul-betul Asli dan berkualitas tinggi dengan harga yang kompetitif tentunya.</p>

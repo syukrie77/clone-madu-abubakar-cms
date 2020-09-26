@@ -4,6 +4,15 @@ module.exports = {
     author: `MaduAbuBakar.Com`,
   },
   plugins: [
+	{
+	  resolve: `gatsby-source-filesystem`,
+	  options: {
+		name: `images`,
+	    path: `${__dirname}/src/posts/images/`,
+		},
+	},
+	`gatsby-transformer-sharp`,
+	`gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
 	  {
 	    resolve: `gatsby-source-filesystem`,
@@ -12,7 +21,7 @@ module.exports = {
 	    path: `${__dirname}/src/`,
 	  },
       },
-      `gatsby-plugin-sharp`,
+	   `gatsby-plugin-sharp`,
       {
         resolve: `gatsby-transformer-remark`,
 	options: {
@@ -25,8 +34,8 @@ module.exports = {
 		   linkImagesToOriginal: false
 		 }
 	      }
-	  ]
-	}
-      }
+	  ],
+    }
+    }
   ],
 }
