@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
-import Img from "gatsby-image"
+import Img from 'gatsby-image'
+import SEO from '../components/seo'
 
-import Layout from "../components/layout"
+import Layout from '../components/layout'
 
 const AboutPage = () => {
     const data = useStaticQuery(graphql`
@@ -19,6 +20,7 @@ const AboutPage = () => {
 
   return (
     <Layout>
+      <SEO title="Madu Abu Bakar Asli" />
       <p>
         <Img fluid={data.madu.childImageSharp.fluid} />
       </p>

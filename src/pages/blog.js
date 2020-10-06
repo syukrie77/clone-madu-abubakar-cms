@@ -3,6 +3,7 @@ import { Link, graphql, useStaticQuery } from 'gatsby'
 
 import Layout from '../components/layout'
 import blogStyles from './blog.module.scss'
+import SEO from '../components/seo'
 
 const BlogPage = () => {
   const data = useStaticQuery(graphql`
@@ -14,17 +15,25 @@ const BlogPage = () => {
               title
               date
            }
-	     fields {
-	       slug
-	          }
+             fields {
+               slug
+                  }
+          }
+        }
+      },
+      file(relativePath: {eq: "madu-abubakar1.jpg"}) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            tracedSVG
+           }
           }
         }
       }
-    }
 `)
 
 return (
     <Layout>
+      <SEO title="Madu Abu Bakar Madu Asli" />
       <h1>Blog</h1>
       <ol className={blogStyles.posts}>
         {data.allMarkdownRemark.edges.map((edge) => {

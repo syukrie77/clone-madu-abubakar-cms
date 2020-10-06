@@ -2,8 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `Madu Abu Bakar Asli!`,
     author: `MaduAbuBakar.Com`,
+    description: `Madu Abu Bakar Hanya menjual Madu Asli Madu Hutan Sialang Riau`,
   },
   plugins: [
+	  `gatsby-plugin-react-helmet`,
 	{
 	  resolve: `gatsby-source-filesystem`,
 	  options: {
@@ -13,7 +15,7 @@ module.exports = {
 	},
 	`gatsby-transformer-sharp`,
 	`gatsby-plugin-sharp`,
-    `gatsby-plugin-sass`,
+        `gatsby-plugin-sass`,
 	  {
 	    resolve: `gatsby-source-filesystem`,
 	    options: {

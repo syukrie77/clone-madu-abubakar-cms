@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
 import Img from "gatsby-image"
+import SEO from "../components/seo"
 
 import Layout from '../components/layout'
 
@@ -19,6 +20,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
+      <SEO title="Madu Abu Bakar Asli" />
       <h1>Halo.</h1>
       <h2>Selamat Datang di Website Madu Abu Bakar. Tempatnya Madu Asli dan Berkualitas.</h2>
 

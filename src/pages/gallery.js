@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import SEO from "../components/seo"
 
 import Layout from "../components/layout"
 
@@ -27,6 +28,7 @@ const Gallery = () => {
   return (
     <div>
       <Layout>
+        <SEO title="Madu Abu Bakar Asli" />
         <p>
           <Img fluid={data.madu1.childImageSharp.fluid} />
         </p>
