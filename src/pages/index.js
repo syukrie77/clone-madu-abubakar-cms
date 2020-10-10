@@ -22,7 +22,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Madu Abu Bakar Asli" />
       <h1>Halo.</h1>
-      <h2>Selamat Datang di Blog Madu Abu Bakar. Tempatnya Madu Asli dan Berkualitas.</h2>
+      <h2>Selamat Datang di Web Blog Madu Abu Bakar. Tempatnya Madu Asli dan Berkualitas.</h2>
 
       <p><Img fluid={data.madu.childImageSharp.fluid} /></p>
       
