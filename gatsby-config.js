@@ -5,6 +5,13 @@ module.exports = {
     description: `Madu Abu Bakar Hanya menjual Madu Asli Madu Hutan Sialang Riau`,
   },
   plugins: [
+	  {
+	    resolve: 'gatsby-source-contentful',
+	    options: {
+	      spaceId: "gs3y5bnutt2i",
+	      accessToken: "fLPSmzp3_wMIxHm_6RvNh2LQG-09Ff9sSMAWzs6o_KM",
+	    }
+	  },
 	  `gatsby-plugin-react-helmet`,
 	{
 	  resolve: `gatsby-source-filesystem`,
