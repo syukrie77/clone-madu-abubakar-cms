@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Madu Abu Bakar Asli!`,
+    title: `Manfaat Madu Hutan Asli`,
     author: `MaduAbuBakar.Com`,
     description: `Madu Abu Bakar Hanya menjual Madu Asli Madu Hutan Sialang Riau`,
   },

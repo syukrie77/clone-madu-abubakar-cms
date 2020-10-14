@@ -20,7 +20,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Madu Abu Bakar Asli" />
+      <SEO title="Manfaat Madu Hutan Asli" />
       <h1>Halo.</h1>
       <h2>Selamat Datang di Web Blog Madu Abu Bakar. Tempatnya Madu Asli dan Berkualitas.</h2>
 
